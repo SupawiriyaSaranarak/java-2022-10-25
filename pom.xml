@@ -1,0 +1,21 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>your-company</groupId>
+    <artifactId>java-25</artifactId>
+    <version>0.25</version>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <sourceDirectory>code</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+    </build>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+</project>
