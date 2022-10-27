@@ -1,8 +1,8 @@
 main/OldSqlConnection.class
 main/UserRepository.class
-main/Company.class
-main/Web.class
 main/Sample.class
-main/Setup.class
 main/User.class
 main/Start.class
+main/Company.class
+main/Web.class
+main/Setup.class
