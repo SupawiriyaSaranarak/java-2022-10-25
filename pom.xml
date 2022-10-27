@@ -3,16 +3,37 @@
     <groupId>your-company</groupId>
     <artifactId>java-25</artifactId>
     <version>0.25</version>
+    <repositories>
+        <repository>
+            <id>the-spring</id>
+            <url>https://repo.spring.io/milestone</url>
+        </repository>
+    </repositories>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.0.0-RC1</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>LATEST</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jdbc</artifactId>
+            <version>3.0.0-RC1</version>
+        </dependency>
     </dependencies>
     <build>
+        <resources>
+            <resource>
+                <directory>data</directory>
+            </resource>
+        </resources>
         <sourceDirectory>code</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>   
     </build>
     <properties>
         <maven.compiler.source>19</maven.compiler.source>

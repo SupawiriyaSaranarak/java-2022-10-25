@@ -1,13 +1,16 @@
+package main;
+
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.Date;
-class Start {
-    public static void main(String[] data) {
-        System.out.println("Hello Database");
-        Company c = new Company();
-        c.show();
-    }
+
+class OldSqlConnection {
+//    public static void main(String[] data) {
+//        System.out.println("Hello Database");
+//        Company c = new Company();
+//        c.show();
+//    }
 }
 
 class Company {
